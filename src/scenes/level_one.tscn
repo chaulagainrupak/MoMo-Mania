@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://s6sg4u8bwoii"]
+
+[ext_resource type="PackedScene" uid="uid://c0cvp8wgrlv0k" path="res://src/scenes/chef_character.tscn" id="1_eqqdc"]
+[ext_resource type="Texture2D" uid="uid://bmkyttyqoupeu" path="res://icon.svg" id="2_s3ixj"]
+
+[node name="LevelOne" type="Node2D"]
+
+[node name="chefCharacter" parent="." instance=ExtResource("1_eqqdc")]
+position = Vector2(465, 371)
+
+[node name="Camera2D" type="Camera2D" parent="chefCharacter"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(390, 363)
+texture = ExtResource("2_s3ixj")

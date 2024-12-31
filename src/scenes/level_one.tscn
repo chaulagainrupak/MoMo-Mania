@@ -1,15 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://s6sg4u8bwoii"]
+[gd_scene load_steps=4 format=3 uid="uid://s6sg4u8bwoii"]
 
-[ext_resource type="PackedScene" uid="uid://c0cvp8wgrlv0k" path="res://src/scenes/chef_character.tscn" id="1_eqqdc"]
-[ext_resource type="Texture2D" uid="uid://bmkyttyqoupeu" path="res://icon.svg" id="2_s3ixj"]
+[ext_resource type="Script" path="res://src/scenes/level_one.gd" id="1_4os6f"]
+[ext_resource type="Texture2D" uid="uid://dndavmsnx08j1" path="res://assets/BACKGROUNDS/Green.png" id="1_cfxsi"]
+[ext_resource type="PackedScene" uid="uid://d1i0e6p4wefps" path="res://SCEANS/character_body_2d.tscn" id="3_yi2w4"]
 
-[node name="LevelOne" type="Node2D"]
+[node name="Node" type="Node"]
+script = ExtResource("1_4os6f")
 
-[node name="chefCharacter" parent="." instance=ExtResource("1_eqqdc")]
-position = Vector2(465, 371)
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_cfxsi")
+stretch_mode = 1
 
-[node name="Camera2D" type="Camera2D" parent="chefCharacter"]
-
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(390, 363)
-texture = ExtResource("2_s3ixj")
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_yi2w4")]

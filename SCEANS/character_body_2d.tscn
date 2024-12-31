@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1i0e6p4wefps"]
+
+[ext_resource type="Texture2D" uid="uid://dywnmrc268wmt" path="res://assets/textures/entities/chef/chef.png" id="1_jklfb"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3j2op"]
+radius = 14.0
+height = 68.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(-26, 5)
+
+[node name="Chef" type="Sprite2D" parent="."]
+position = Vector2(374, 206)
+texture = ExtResource("1_jklfb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(374, 208)
+shape = SubResource("CapsuleShape2D_3j2op")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dywnmrc268wmt"
-path="res://.godot/imported/chef.png-04f8ed6246fa51b170b10ea4e62f8c9f.ctex"
+uid="uid://cxcbpb8obefov"
+path="res://.godot/imported/fence.png-d7099c91d09362089d0874bb9a102834.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/entities/chef/chef.png"
-dest_files=["res://.godot/imported/chef.png-04f8ed6246fa51b170b10ea4e62f8c9f.ctex"]
+source_file="res://assets/tilemaps/simple_tileset_32x32_version1.0/fence.png"
+dest_files=["res://.godot/imported/fence.png-d7099c91d09362089d0874bb9a102834.ctex"]
 
 [params]
 

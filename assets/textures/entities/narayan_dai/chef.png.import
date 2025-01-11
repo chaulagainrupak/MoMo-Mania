@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy45sv2lrsrt2"
-path="res://.godot/imported/Sprite-0003 anime-Sheet.png-6b6ef5188a1c62f00f584fdfd9346723.ctex"
+uid="uid://dywnmrc268wmt"
+path="res://.godot/imported/chef.png-eccfa64353d169e96d14c3c8a4bd9905.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Sprite-0003 anime-Sheet.png"
-dest_files=["res://.godot/imported/Sprite-0003 anime-Sheet.png-6b6ef5188a1c62f00f584fdfd9346723.ctex"]
+source_file="res://assets/textures/entities/narayan_dai/chef.png"
+dest_files=["res://.godot/imported/chef.png-eccfa64353d169e96d14c3c8a4bd9905.ctex"]
 
 [params]
 

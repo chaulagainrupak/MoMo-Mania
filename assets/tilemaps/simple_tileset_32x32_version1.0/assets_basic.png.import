@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm11mk41as6cp"
-path="res://.godot/imported/narayan_dai.png-4f3fe39a01b2f827553f0cc1f334a26d.ctex"
+uid="uid://sgc7t6qvsig4"
+path="res://.godot/imported/assets_basic.png-d96897ebec4d3e5503fda677a1e8f18a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/entities/chef/narayan_dai.png"
-dest_files=["res://.godot/imported/narayan_dai.png-4f3fe39a01b2f827553f0cc1f334a26d.ctex"]
+source_file="res://assets/tilemaps/simple_tileset_32x32_version1.0/assets_basic.png"
+dest_files=["res://.godot/imported/assets_basic.png-d96897ebec4d3e5503fda677a1e8f18a.ctex"]
 
 [params]
 

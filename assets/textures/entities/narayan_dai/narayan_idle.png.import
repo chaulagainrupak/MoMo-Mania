@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxcbpb8obefov"
-path="res://.godot/imported/fence.png-df12c85d6697505a4f3ac03e784fb6c4.ctex"
+uid="uid://dy45sv2lrsrt2"
+path="res://.godot/imported/narayan_idle.png-eb4be8d80d591135d5c7276a04976f87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilemaps/simple_tileset_32x32_version1.0/fence.png"
-dest_files=["res://.godot/imported/fence.png-df12c85d6697505a4f3ac03e784fb6c4.ctex"]
+source_file="res://assets/textures/entities/narayan_dai/narayan_idle.png"
+dest_files=["res://.godot/imported/narayan_idle.png-eb4be8d80d591135d5c7276a04976f87.ctex"]
 
 [params]
 

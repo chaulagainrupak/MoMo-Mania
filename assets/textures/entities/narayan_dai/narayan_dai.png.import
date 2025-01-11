@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sgc7t6qvsig4"
-path="res://.godot/imported/assets_basic.png-a93d095b8e1b51a9cc5e4b524743eecb.ctex"
+uid="uid://dm11mk41as6cp"
+path="res://.godot/imported/narayan_dai.png-033a1baad2500609659c7ab43d3d2047.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilemaps/simple_tileset_32x32_version1.0/assets_basic.png"
-dest_files=["res://.godot/imported/assets_basic.png-a93d095b8e1b51a9cc5e4b524743eecb.ctex"]
+source_file="res://assets/textures/entities/narayan_dai/narayan_dai.png"
+dest_files=["res://.godot/imported/narayan_dai.png-033a1baad2500609659c7ab43d3d2047.ctex"]
 
 [params]
 

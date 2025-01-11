@@ -1,31 +1,17 @@
+
+
 extends CharacterBody2D
-
-
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
-
-@onready var chef_sprite: Sprite2D = $chefSprite
-
-func _physics_process(delta: float) -> void:
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction := Input.get_axis("ui_left", "ui_right")
-	
-	if direction == -1:
-		chef_sprite.flip_h = true
-	elif direction == 1:
-		chef_sprite.flip_h = false
-		
-	if direction:
-		$AnimationPlayer.play("walk")
-		velocity.x = direction * SPEED
-	else:
-		$AnimationPlayer.play("RESET")
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-
+ 
+var speed = 400  # move speed
+var mousePos = null # null means nothing, so the mousePos is still not defined until the mouse is left-clicked
+ 
+func _input(event):
+	if event.is_action_pressed("left_click"): # detects if the mouse was left-clicked
+		mousePos = get_global_mouse_position() # get the position of the mouse pointer
+ 
+func _physics_process(delta):
+	if mousePos:
+		velocity = position.direction_to(mousePos) * speed # move to the mouse pointer
+		if position.distance_to(mousePos) < 30: # don't move it the mouse pointer if it was too close to the player
+			velocity = Vector2.ZERO
 	move_and_slide()
